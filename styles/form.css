@@ -1,0 +1,19 @@
+body {
+  background: lightblue;
+
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  display: flex;
+  background-color: lightgrey;
+  justify-content: center;
+  align-items: center;
+
+}
