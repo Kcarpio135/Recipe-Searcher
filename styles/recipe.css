@@ -1,6 +1,8 @@
 body {
-  background: lightgrey
-
+  background-image: url(https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 p {
@@ -10,6 +12,12 @@ align-items: center;
 justify-content: center;
 font-family: serif;
 font-size: 30px;
+color: white;
+text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 
 .result {
@@ -17,6 +25,9 @@ display: grid;
 grid-template-rows: 1fr 3fr;
 grid-template-columns: 1fr 1fr;
 border-style: outset;
+background-color: rgba(128,128,128,0.8);
+padding: 5px 5px;
+color: white;
 }
 
 .image {
@@ -32,6 +43,7 @@ border-style: outset;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
 }
 
 
